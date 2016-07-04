@@ -1,0 +1,26 @@
+{
+  "name": "spock",
+  "version": "1.0.0",
+  "description": "Create and add to Spotify playlists from a Slack Channel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhallam/spock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomhallam/spock/issues"
+  },
+  "homepage": "https://github.com/tomhallam/spock#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "koa": "^1.2.0",
+    "spotify-uri": "^1.0.0",
+    "spotify-web-api-node": "^2.2.0"
+  }
+}
